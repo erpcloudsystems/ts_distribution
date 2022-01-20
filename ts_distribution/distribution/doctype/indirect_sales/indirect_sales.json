@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "autoname": "field:indirect_sales_name",
+ "creation": "2021-09-28 14:49:08.085861",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "indirect_sales_name",
+  "user",
+  "warehouse",
+  "sales_officials",
+  "column_break_4",
+  "territory",
+  "sub_territory",
+  "credit_limit"
+ ],
+ "fields": [
+  {
+   "fieldname": "indirect_sales_name",
+   "fieldtype": "Data",
+   "label": "Indirect Sales Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "User"
+  },
+  {
+   "fieldname": "sales_officials",
+   "fieldtype": "Link",
+   "label": "Sales Manager",
+   "options": "Sales Manager"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "territory",
+   "fieldtype": "Link",
+   "label": "Territory",
+   "options": "Territory"
+  },
+  {
+   "fieldname": "sub_territory",
+   "fieldtype": "Link",
+   "label": "Sub Territory",
+   "options": "Sub Territory"
+  },
+  {
+   "default": "0",
+   "fieldname": "credit_limit",
+   "fieldtype": "Currency",
+   "label": "Credit Limit"
+  },
+  {
+   "fieldname": "warehouse",
+   "fieldtype": "Link",
+   "label": "Warehouse",
+   "options": "Warehouse"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-12-23 17:56:11.060945",
+ "modified_by": "Administrator",
+ "module": "Distribution",
+ "name": "Indirect Sales",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

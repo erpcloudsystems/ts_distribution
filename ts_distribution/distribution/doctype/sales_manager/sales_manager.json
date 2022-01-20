@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "autoname": "field:sales_official_name",
+ "creation": "2021-09-28 14:48:24.287412",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sales_official_name",
+  "sales_official_user",
+  "territory",
+  "sub_territory",
+  "column_break_5",
+  "credit_limit"
+ ],
+ "fields": [
+  {
+   "fieldname": "sales_official_name",
+   "fieldtype": "Data",
+   "label": "Sales Official Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "sales_official_user",
+   "fieldtype": "Link",
+   "label": "Sales Official User",
+   "options": "User"
+  },
+  {
+   "fieldname": "territory",
+   "fieldtype": "Link",
+   "label": "Territory",
+   "options": "Territory"
+  },
+  {
+   "fieldname": "sub_territory",
+   "fieldtype": "Link",
+   "label": "Sub Territory",
+   "options": "Sub Territory"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "credit_limit",
+   "fieldtype": "Currency",
+   "label": "Credit Limit"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-12-20 23:50:30.280228",
+ "modified_by": "Administrator",
+ "module": "Distribution",
+ "name": "Sales Manager",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

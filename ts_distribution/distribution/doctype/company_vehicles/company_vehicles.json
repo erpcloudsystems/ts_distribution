@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "autoname": "field:company_vehicle",
+ "creation": "2021-09-28 14:25:25.680857",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company_vehicle",
+  "vehicle_brand",
+  "model",
+  "chassis_no",
+  "column_break_5",
+  "company",
+  "vehicle_registration_date",
+  "license_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "company_vehicle",
+   "fieldtype": "Data",
+   "label": "Company Vehicle",
+   "unique": 1
+  },
+  {
+   "fieldname": "vehicle_brand",
+   "fieldtype": "Data",
+   "label": "Vehicle Brand"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "chassis_no",
+   "fieldtype": "Data",
+   "label": "Chassis No"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "vehicle_registration_date",
+   "fieldtype": "Date",
+   "label": "Vehicle Registration Date"
+  },
+  {
+   "fieldname": "license_date",
+   "fieldtype": "Date",
+   "label": "License Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-12-21 23:29:36.585736",
+ "modified_by": "Administrator",
+ "module": "Distribution",
+ "name": "Company Vehicles",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
