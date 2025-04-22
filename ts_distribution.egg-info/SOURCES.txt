@@ -62,12 +62,6 @@ ts_distribution/distribution/doctype/sales_manager/sales_manager.js
 ts_distribution/distribution/doctype/sales_manager/sales_manager.json
 ts_distribution/distribution/doctype/sales_manager/sales_manager.py
 ts_distribution/distribution/doctype/sales_manager/test_sales_manager.py
-ts_distribution/distribution/doctype/td_advance_customer_payment/__init__.py
-ts_distribution/distribution/doctype/td_advance_customer_payment/td_advance_customer_payment.json
-ts_distribution/distribution/doctype/td_advance_customer_payment/td_advance_customer_payment.py
-ts_distribution/distribution/doctype/td_multiple_payment/__init__.py
-ts_distribution/distribution/doctype/td_multiple_payment/td_multiple_payment.json
-ts_distribution/distribution/doctype/td_multiple_payment/td_multiple_payment.py
 ts_distribution/distribution/workspace/distribution/distribution.json
 ts_distribution/fixtures/custom_field.json
 ts_distribution/fixtures/property_setter.json
